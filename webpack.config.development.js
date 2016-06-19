@@ -19,9 +19,10 @@ module.exports = {
   module: {
     loaders: [{
       test: /\.js$/,
-      loaders: ['babel'],
+      loader: 'babel',
       exclude: /node_modules/,
-      include: path.join(__dirname, 'client')
+      include: path.join(__dirname, 'client'),
+      query: {presets:[ 'es2015', 'react', 'stage-1' ]}
     },{
       test: /\.json$/, 
       loader: 'json'

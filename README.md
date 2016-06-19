@@ -1,6 +1,6 @@
 # loopback-redux-react-boilerplate
 
-A boilerplate for a Redux-React application using LoopBack
+A boilerplate for a Redux-React application using LoopBack forked from https://github.com/tngan/loopback-redux-react-boilerplate
 
 ### Get Started
 - **Clone this repository or use npm**
